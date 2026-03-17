@@ -540,7 +540,7 @@ body {
 
 /* FINAL PAGE */
 
-/* .final-page {
+.final-page {
   background: linear-gradient(135deg, #5a0ca8, #c77dff);
   min-height: 100vh;
   display: flex;
@@ -550,7 +550,7 @@ body {
   color: white;
   font-family: Arial;
   padding: 40px;
-} */
+}
 
 .final-container {
   max-width: 700px;
