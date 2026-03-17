@@ -202,7 +202,7 @@ body {
 
 /* ---------- PAGE 2: Birthday Message ---------- */
 
-/* .message-page {
+.message-page {
   background: linear-gradient(135deg, #6a0dad, #c77dff);
   color: white;
   text-align: center;
@@ -211,15 +211,15 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin: 0;
   overflow-x: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   justify-content: center;
-} */
+}
 
 /* message container */
 .container {
@@ -395,7 +395,7 @@ body {
 
 /* ---------- GALLERY PAGE ---------- */
 
-/* .gallery-page {
+.gallery-page {
   background: linear-gradient(135deg, #5a0ca8, #c77dff);
   min-height: 100vh;
   text-align: center;
@@ -407,7 +407,7 @@ body {
   flex-direction: column;
   justify-content: center;
   animation: gallerytext 4s ease forwards;
-} */
+}
 
 /* title */
 
