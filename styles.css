@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body{
+  height: 100%;
+  margin: 0;
+}
 
 body {
   margin: 0;
@@ -198,12 +202,24 @@ body {
 
 /* ---------- PAGE 2: Birthday Message ---------- */
 
-.message-page {
+/* .message-page {
   background: linear-gradient(135deg, #6a0dad, #c77dff);
   color: white;
   text-align: center;
   overflow: hidden;
-}
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0;
+  overflow-x: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+} */
 
 /* message container */
 .container {
@@ -379,7 +395,7 @@ body {
 
 /* ---------- GALLERY PAGE ---------- */
 
-.gallery-page {
+/* .gallery-page {
   background: linear-gradient(135deg, #5a0ca8, #c77dff);
   min-height: 100vh;
   text-align: center;
@@ -391,7 +407,7 @@ body {
   flex-direction: column;
   justify-content: center;
   animation: gallerytext 4s ease forwards;
-}
+} */
 
 /* title */
 
@@ -524,7 +540,7 @@ body {
 
 /* FINAL PAGE */
 
-.final-page {
+/* .final-page {
   background: linear-gradient(135deg, #5a0ca8, #c77dff);
   min-height: 100vh;
   display: flex;
@@ -534,7 +550,7 @@ body {
   color: white;
   font-family: Arial;
   padding: 40px;
-}
+} */
 
 .final-container {
   max-width: 700px;
@@ -597,4 +613,38 @@ body {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+@media (max-width:768px){
+  .final-title, 
+  .gallery-title{
+    font-size: 28px;
+  }
+  .final-message{
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .slideshow{
+    width: 90%;
+    height: 280px;
+  }
+  .final-container{
+    width: 90%;
+    padding: 25px;
+  }
+  .next{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .surprise-text{
+    font-size: 22px;
+    padding: 0 15px;
+  }
+  
+}
+.page-wrapper{
+  max-width: 900px;
+  margin: auto;
+  padding: 80px 20px;
+  text-align: center;
 }
